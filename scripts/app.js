@@ -37,7 +37,7 @@ function handleUpdate(event) {
 }
 
 function buildApodUrl(date) {
-  var url = "http://pseudorandombits.com/jccc/apod.php";
+  var url = "https://api.nasa.gov/planetary/apod";
   url += "?date=" + date + "&api_key=" + myApiKey;
   return url;
 }

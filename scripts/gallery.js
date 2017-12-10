@@ -17,7 +17,7 @@ const loadGallery = async () =>{
 }
 
 function buildApodUrl(date) {
-  var url = "http://pseudorandombits.com/jccc/apod.php";
+  var url = "https://api.nasa.gov/planetary/apod";
   url += "?date=" + date + "&api_key=" + myApiKey;
   //console.log(url);
   return url;
