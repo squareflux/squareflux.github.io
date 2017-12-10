@@ -37,7 +37,7 @@ function handleUpdate(event) {
 }
 
 function buildApodUrl(date) {
-  var url = "https://pseudorandombits.com/jccc/apod.php";
+  var url = "http://pseudorandombits.com/jccc/apod.php";
   url += "?date=" + date + "&api_key=" + myApiKey;
   return url;
 }
