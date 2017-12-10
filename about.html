@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gallery</title>
+	  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="https://use.fontawesome.com/a9afc5f6b9.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	 <nav id="nav" class="topnav">
+  <a href="index.html">home</a>
+    <a href="gallery.html">gallery</a>
+    <a href="about.html" class="active">about</a>
+    <label class="switch">
+    <input type="checkbox" id="nightmode">
+    <span class="slider"></span>
+    </label>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon">&#9776;</a>
+</nav>
+
+
+  <main>
+  	<h1>About This Website</h1>
+    <p>This site was made for a school project with the use of the NASA image of the day API. </p>
+
+    <h2>Keybindings</h2>
+    <ul class="keybindings">
+      <li><span>n:</span> Nightmode Toggle</li>
+      <li><span>left arrow:</span> Previous Image</li>
+      <li><span>right arrow:</span> Next Image</li>
+    </ul>
+    <form class="form" id="form1">
+      <h2>Contact Me!</h2>
+      <p class="name">
+        <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="email" class="feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      <input type="submit" value="send" id="button-blue"/>
+        
+    
+    </form>
+
+
+  <script src="scripts/about.js"></script>
+  <script src="scripts/common.js"></script>
+</body>
+</html>
